@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .fw-500 {
   font-weight: 500;
 }
@@ -16,3 +20,62 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+button {
+  cursor: pointer;
+}
+
+/* .test p,
+.test ul {
+  margin: 20px 0;
+}
+
+.test > p {
+  color: red;
+}
+
+.parent ~ .child {
+  color: yellowgreen;
+}
+
+.psevdocheckbox {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid red;
+}
+
+.checkbox:checked + span {
+  background-color: yellow;
+  border: 2px solid green;
+}
+
+#test {
+  font-size: 24px;
+}
+p.testid {
+  font-size: 30px !important;
+}
+.testid.testid--32 {
+  font-size: 32px !important;
+}
+.js-tag {
+  color: red !important;
+}
+
+.team-member {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.team-member-bg {
+  width: 200px;
+  height: 200px;
+
+  background: url(../img/jon1.png) no-repeat;
+
+  background-size: contain;
+  background-position: center;
+} */
